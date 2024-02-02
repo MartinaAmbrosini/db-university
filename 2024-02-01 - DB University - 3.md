@@ -20,8 +20,7 @@ GROUP BY YEAR(enrolment_date);
 ```sql
 SELECT office_address, COUNT(*)
 FROM teachers
-WHERE office_address = office_address
-GROUP BY office_address;
+WHERE office_address = office_address;
 ```
 
 3. Calcolare la media dei voti di ogni appello d'esame (dell'esame vogliamo solo l'`id`)
